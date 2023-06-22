@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "parser-of-vacancies-coursework"
+version = "0.1.0"
+description = ""
+authors = ["gs0dv <gs0dv@main.ru>"]
+readme = "README.md"
+packages = [{include = "parser_of_vacancies_coursework"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
